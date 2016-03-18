@@ -1,4 +1,4 @@
-[![TH02](TH02_I2CS_A.png)](https://www.controleverything.com/products)
+[![TH02](TH02_I2CS.png)](https://www.controleverything.com/products)
 # TH02
 TH02 Humidity and Temperature Sensor
 
