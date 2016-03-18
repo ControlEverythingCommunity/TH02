@@ -14,7 +14,6 @@ float cTemp = 0.0, humidity = 0.0;
 void setup()
 {
   // Set variables
-  // Set variable
   Particle.variable("i2cdevice", "TH02");
   Particle.variable("cTemp", cTemp);
   Particle.variable("humidity", humidity);
