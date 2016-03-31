@@ -19,7 +19,7 @@ time.sleep(0.5)
 
 # TH02 address, 0x40(64)
 # Read data back from 0x00(00), 3 bytes
-# Status register, cTemp MSB, cTemp MSB
+# Status register, cTemp MSB, cTemp LSB
 data = bus.read_i2c_block_data(0x40, 0x00, 3)
 
 # Convert the data to 14-bits
