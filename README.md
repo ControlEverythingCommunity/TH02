@@ -62,4 +62,17 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
+
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc TH02.c -o TH02
+```
+Run the c program.
+```cpp
+$>./TH02
+```
 #####The code output is the relative humidity and temperature reading in degree celsius and fahrenheit.
