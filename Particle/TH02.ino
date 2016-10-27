@@ -10,7 +10,7 @@
 // TH02 I2C address is 0x40(64)
 #define Addr 0x40
 
-float cTemp = 0.0, humidity = 0.0;
+double cTemp = 0.0, humidity = 0.0;
 void setup()
 {
   // Set variables
